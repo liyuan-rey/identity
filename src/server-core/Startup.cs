@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Web.Http;
+using IdentityNS.Server.Core.OAuth;
 using Microsoft.Owin;
 using Microsoft.Owin.Diagnostics;
+using Microsoft.Owin.Security.OAuth;
 using Owin;
 
 [assembly: OwinStartup(typeof (IdentityNS.Server.Core.Startup))]
@@ -31,12 +33,31 @@ namespace IdentityNS.Server.Core
             //    throw new Exception("UseErrorPage() demo");
             //    await context.Response.WriteAsync("Error page demo");
             //});
+
+            app.UseWelcomePage("/"); // for test purpose only
 #endif
-            app.UseWelcomePage("/");
+
+            ConfigureOAuth(app);
 
             var config = new HttpConfiguration();
             WebApiConfig.Register(config);
             app.UseWebApi(config);
+        }
+
+        public void ConfigureOAuth(IAppBuilder app)
+        {
+            OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
+            {
+                AllowInsecureHttp = true,
+                TokenEndpointPath = new PathString("/token"),
+                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
+                Provider = new SimpleAuthorizationServerProvider()
+            };
+
+            // Token Generation
+            app.UseOAuthAuthorizationServer(OAuthServerOptions);
+            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
+
         }
     }
 }
