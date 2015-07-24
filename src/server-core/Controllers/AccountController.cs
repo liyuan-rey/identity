@@ -38,15 +38,6 @@ namespace IdentityNS.Server.Core.Controllers
             return Ok();
         }
 
-        // GET api/Account/Login
-        [AllowAnonymous]
-        [Route("Login")]
-        [HttpGet]
-        public async Task<IHttpActionResult> Login( /*UserModel userModel*/)
-        {
-            return Ok();
-        }
-
         protected override void Dispose(bool disposing)
         {
             if (disposing)

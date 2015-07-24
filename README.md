@@ -1,12 +1,35 @@
 # identity
 This is a demo application shows usage about [OAuth](http://oauth.net/2/) in both server and client side, based on IdentityServer.
 
-The demo is built on top of ASP.Net 5 ([website](http://www.asp.net/vnext), [document](http://docs.asp.net/en/latest/) and [code](https://github.com/aspnet/Home)).
+The demo is built on top of ASP.Net 4.5 ([website](http://www.asp.net/vnext), [document](http://docs.asp.net/en/latest/) and [code](https://github.com/aspnet/Home)).
 
 Thanks to [Visual Studio Community](https://www.visualstudio.com/products/visual-studio-community-vs) and [Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx), which the demo is coding with.
 
+## What's in the demo
+...
+
+### server-core
+...
+
+### server-selfhot & server-owinhost
+...
+
+## ASP.Net
+
+* ASP.Net Web API - 
+
+* ASP.Net Identity - 
+
+* ASP.Net CORS - 
+
+## EntityFramework
+...
+
+## Json.NET
+...
+
 ## OWIN and Katana Project
-I perfer not to binding with any exactly server or host environment, so OWIN and Katana is used in the demo. I suggest you to read this [article](http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/), it clearly clearified the relationship between OWIN and Katana, also the motivation of Katana project.
+I prefer not to binding with any exactly server or host environment, so OWIN and Katana is used in the demo. I suggest you to read this [article](http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/), it clearly clearified the relationship between OWIN and Katana, also the motivation of Katana project.
 
 Many components of Katana Project are used in the demo. For more information about Katana, check it's [website](https://katanaproject.codeplex.com/), [document](http://katanaproject.codeplex.com/documentation) and [code](http://katanaproject.codeplex.com/SourceControl/latest).
 
@@ -17,6 +40,14 @@ Below is the main components used from OWIN/Katana stack:
 * Microsoft.Owin - Provides a set of helper types and abstractions for simplifying the creation of OWIN components.
 
 * Microsoft.Owin.Diagnostics - Provides middleware components to assist in developing OWIN-based applications, i.e., IAppBuilder.UseWelcomePage() and IAppBuilder.UseErrorPage(). The UseWelcomePage extensions can be used to add a simple html page to your application to verify the site is up and running. The UseErrorPage extensions can be used to add an Exception filter to the request pipeline that will display exception and request details. Notice that the ErrorPage can only show exceptions that happen in the OWIN pipeline, if error occur in MVC or WebAPI routine, ErrorPage is not applicable.
+
+* Microsoft.Owin.Security - Common types which are shared by the various authentication middleware components.
+
+* Microsoft.Owin.Security.OAuth - Middleware that enables an application to support any standard OAuth 2.0 authentication workflow.
+
+* Microsoft.Owin.Security.Cookies - Middleware that enables an application to use cookie based authentication, similar to ASP.NET's forms authentication.
+
+* Microsoft.Owin.Cors - 
 
 * Microsoft.Owin.Hosting - Provides default infrastructure types for hosting and running OWIN-based applications.
 

@@ -13,7 +13,8 @@ namespace IdentityNS.Server.SelfHost
             const string url = "http://localhost:12345";
             using (WebApp.Start<Startup>(url))
             {
-                Console.WriteLine("\n\nServer listening at {0}. Press enter to stop", url);
+                Console.WriteLine("Server listening at {0} ...", url);
+                Console.WriteLine("Press enter to stop.");
                 Console.ReadLine();
             }
         }

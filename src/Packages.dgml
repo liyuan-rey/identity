@@ -1,46 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph GraphDirection="LeftToRight" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="server-owinhost" Label="server-owinhost" Category="项目" />
-    <Node Id="OwinHost 3.0.1" Label="OwinHost 3.0.1" Category="包" />
-    <Node Id="server-core" Label="server-core" Category="项目" />
-    <Node Id="Microsoft.AspNet.WebApi.Client 5.2.3" Label="Microsoft.AspNet.WebApi.Client 5.2.3" Category="包" />
-    <Node Id="Microsoft.AspNet.WebApi.Core 5.2.3" Label="Microsoft.AspNet.WebApi.Core 5.2.3" Category="包" />
-    <Node Id="Microsoft.AspNet.WebApi.Owin 5.2.3" Label="Microsoft.AspNet.WebApi.Owin 5.2.3" Category="包" />
-    <Node Id="Microsoft.Owin 3.0.1" Label="Microsoft.Owin 3.0.1" Category="包" />
-    <Node Id="Microsoft.Owin.Diagnostics 3.0.1" Label="Microsoft.Owin.Diagnostics 3.0.1" Category="包" />
-    <Node Id="Newtonsoft.Json 6.0.4" Label="Newtonsoft.Json 6.0.4" Category="包" />
-    <Node Id="Owin 1.0" Label="Owin 1.0" Category="包" />
-    <Node Id="server-selfhost" Label="server-selfhost" Category="项目" />
-    <Node Id="Microsoft.Owin 3.0.1" Label="Microsoft.Owin 3.0.1" Category="包" />
-    <Node Id="Microsoft.Owin.Host.HttpListener 3.0.1" Label="Microsoft.Owin.Host.HttpListener 3.0.1" Category="包" />
-    <Node Id="Microsoft.Owin.Hosting 3.0.1" Label="Microsoft.Owin.Hosting 3.0.1" Category="包" />
-    <Node Id="Owin 1.0" Label="Owin 1.0" Category="包" />
+    <Node Id="EntityFramework 6.1.3" Category="包" Bounds="73.0466666666666,111.673333333333,146.776666666667,25.8366666666667" Label="EntityFramework 6.1.3" />
+    <Node Id="Microsoft.AspNet.Cors 5.2.3" Category="包" Bounds="66.5999999999999,223.346666666666,179.67,25.8366666666666" Label="Microsoft.AspNet.Cors 5.2.3" />
+    <Node Id="Microsoft.AspNet.Identity.Core 2.2.1" Category="包" Bounds="250.581666666666,111.673333333333,227.706666666667,25.8366666666667" Label="Microsoft.AspNet.Identity.Core 2.2.1">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Microsoft.AspNet.Identity.EntityFramework 2.2.1" Category="包" Bounds="72.9383333333333,55.8366666666665,296.993333333333,25.8366666666667" Label="Microsoft.AspNet.Identity.EntityFramework 2.2.1">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Microsoft.AspNet.Identity.Owin 2.2.1" Category="包" Bounds="692.186666666667,55.8366666666666,230.496666666667,25.8366666666667" Label="Microsoft.AspNet.Identity.Owin 2.2.1">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Microsoft.AspNet.WebApi.Client 5.2.3" Category="包" Bounds="1404.51666666667,167.51,235.836666666667,25.8366666666667" Label="Microsoft.AspNet.WebApi.Client 5.2.3">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="Microsoft.AspNet.WebApi.Core 5.2.3" Category="包" Bounds="1336.535,111.673333333333,229.8,25.8366666666667" Label="Microsoft.AspNet.WebApi.Core 5.2.3">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="Microsoft.AspNet.WebApi.Owin 5.2.3" Category="包" Bounds="953.14,55.8366666666666,232.59,25.8366666666667" Label="Microsoft.AspNet.WebApi.Owin 5.2.3">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="Microsoft.Owin 3.0.1" Category="包" Bounds="440.37,223.346666666666,138.13,25.8366666666666" Label="Microsoft.Owin 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Cors 3.0.1" Category="包" Bounds="73.0283333333332,167.51,166.813333333333,25.8366666666667" Label="Microsoft.Owin.Cors 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Diagnostics 3.0.1" Category="包" Bounds="270.698333333333,167.51,207.473333333333,25.8366666666667" Label="Microsoft.Owin.Diagnostics 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Host.HttpListener 3.0.1" Category="包" Bounds="1132.58666666667,167.51,241.696666666667,25.8366666666667" Label="Microsoft.Owin.Host.HttpListener 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Hosting 3.0.1" Category="包" Bounds="852.326666666666,167.51,186.216666666667,25.8366666666667" Label="Microsoft.Owin.Hosting 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Security 3.0.1" Category="包" Bounds="604.053333333333,167.51,186.763333333333,25.8366666666667" Label="Microsoft.Owin.Security 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Security.Cookies 3.0.1" Category="包" Bounds="540.92,111.673333333333,235.03,25.8366666666667" Label="Microsoft.Owin.Security.Cookies 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Microsoft.Owin.Security.OAuth 3.0.1" Category="包" Bounds="943.87,111.673333333333,227.13,25.8366666666667" Label="Microsoft.Owin.Security.OAuth 3.0.1">
+      <Category Ref="Category4" />
+    </Node>
+    <Node Id="Newtonsoft.Json 6.0.4" Category="包" Bounds="1100.43166666667,223.346666666666,146.006666666667,25.8366666666666" Label="Newtonsoft.Json 6.0.4" />
+    <Node Id="Owin 1.0" Category="包" Bounds="662.258333333333,279.183333333333,70.3533333333334,25.8366666666666" Label="Owin 1.0">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="server-core" Category="项目" Bounds="0,0,84.87,25.8366666666667" Label="server-core" />
+    <Node Id="server-selfhost" Category="项目" Bounds="1201.14,111.673333333333,104.59,25.8366666666667" Label="server-selfhost" />
   </Nodes>
   <Links>
-    <Link Source="server-owinhost" Target="OwinHost 3.0.1" Category="安装的程序包" />
-    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 6.0.4" Category="程序包依赖项" />
-    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 6.0.4" Category="程序包依赖项" />
-    <Link Source="Microsoft.AspNet.WebApi.Core 5.2.3" Target="Microsoft.AspNet.WebApi.Client 5.2.3" Category="程序包依赖项" />
-    <Link Source="Microsoft.AspNet.WebApi.Owin 5.2.3" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" />
-    <Link Source="Microsoft.AspNet.WebApi.Owin 5.2.3" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" />
-    <Link Source="Microsoft.AspNet.WebApi.Owin 5.2.3" Target="Owin 1.0" Category="程序包依赖项" />
-    <Link Source="Microsoft.Owin 3.0.1" Target="Owin 1.0" Category="程序包依赖项" />
-    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Owin 1.0" Category="程序包依赖项" />
-    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" />
-    <Link Source="server-core" Target="Microsoft.AspNet.WebApi.Owin 5.2.3" Category="安装的程序包" />
-    <Link Source="server-core" Target="Microsoft.Owin.Diagnostics 3.0.1" Category="安装的程序包" />
-    <Link Source="Microsoft.Owin 3.0.1" Target="Owin 1.0" Category="程序包依赖项" />
-    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Owin 1.0" Category="程序包依赖项" />
-    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" />
-    <Link Source="server-selfhost" Target="Microsoft.Owin.Host.HttpListener 3.0.1" Category="安装的程序包" />
-    <Link Source="server-selfhost" Target="Microsoft.Owin.Hosting 3.0.1" Category="安装的程序包" />
+    <Link Source="Microsoft.AspNet.Identity.EntityFramework 2.2.1" Target="EntityFramework 6.1.3" Category="程序包依赖项" Bounds="171.005996704102,81.6733322143555,33.0770568847656,24.6254959106445" />
+    <Link Source="Microsoft.AspNet.Identity.EntityFramework 2.2.1" Target="Microsoft.AspNet.Identity.Core 2.2.1" Category="程序包依赖项" Bounds="254.519378662109,81.6733322143555,68.4476623535156,26.7265014648438" />
+    <Link Source="Microsoft.AspNet.Identity.Owin 2.2.1" Target="Microsoft.AspNet.Identity.Core 2.2.1" Category="程序包依赖项" Bounds="475.856536865234,81.6733322143555,229.086273193359,28.8745269775391" />
+    <Link Source="Microsoft.AspNet.Identity.Owin 2.2.1" Target="Microsoft.Owin.Security 3.0.1" Category="程序包依赖项" Bounds="730.909790039063,81.6733322143555,76.5252075195313,81.7629928588867" />
+    <Link Source="Microsoft.AspNet.Identity.Owin 2.2.1" Target="Microsoft.Owin.Security.Cookies 3.0.1" Category="程序包依赖项" Bounds="701.335205078125,81.6733322143555,71.6272583007813,26.8417892456055" />
+    <Link Source="Microsoft.AspNet.Identity.Owin 2.2.1" Target="Microsoft.Owin.Security.OAuth 3.0.1" Category="程序包依赖项" Bounds="865.274841308594,81.6733322143555,125.536743164063,28.038215637207" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 6.0.4" Category="程序包依赖项" Bounds="1254.81127929688,193.346664428711,186.879272460938,29.8989105224609" />
+    <Link Source="Microsoft.AspNet.WebApi.Core 5.2.3" Target="Microsoft.AspNet.WebApi.Client 5.2.3" Category="程序包依赖项" Bounds="1467.86157226563,137.509994506836,31.072509765625,24.4364776611328" />
+    <Link Source="Microsoft.AspNet.WebApi.Owin 5.2.3" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" Bounds="1157.81420898438,81.6733322143555,196.336181640625,28.6983108520508" />
+    <Link Source="Microsoft.AspNet.WebApi.Owin 5.2.3" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="514.213195800781,81.6733322143555,452.308410644531,132.883735656738" />
+    <Link Source="Microsoft.AspNet.WebApi.Owin 5.2.3" Target="Owin 1.0" Category="程序包依赖项" Bounds="741.596923828125,77.574821472168,929.838134765625,211.995155334473" />
+    <Link Source="Microsoft.Owin 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="552.930541992188,249.183334350586,100.744995117188,29.9216156005859" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.AspNet.Cors 5.2.3" Category="程序包依赖项" Bounds="156.434997558594,193.346664428711,0,21" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="237.557312011719,193.260055541992,194.087829589844,30.7003326416016" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="207.565414428711,193.346664428711,445.760513305664,93.3180694580078" />
+    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="405.668518066406,193.346664428711,64.2162780761719,26.5601654052734" />
+    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="382.532562255859,193.346664428711,270.803253173828,92.9300689697266" />
+    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="587.425415039063,192.176010131836,265.523559570313,33.8641510009766" />
+    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="734.329956054688,193.346664428711,182.41650390625,82.1413726806641" />
+    <Link Source="Microsoft.Owin.Security 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="561.558044433594,193.346664428711,92.3814086914063,27.4375915527344" />
+    <Link Source="Microsoft.Owin.Security 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="697.434997558594,193.346664428711,0,76.8366546630859" />
+    <Link Source="Microsoft.Owin.Security.Cookies 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="521.313598632813,137.509994506836,110.052368164063,78.0281066894531" />
+    <Link Source="Microsoft.Owin.Security.Cookies 3.0.1" Target="Microsoft.Owin.Security 3.0.1" Category="程序包依赖项" Bounds="667.4580078125,137.509994506836,15.8004150390625,22.6215972900391" />
+    <Link Source="Microsoft.Owin.Security.Cookies 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="586.079650878906,137.509994506836,83.3964233398438,136.851516723633" />
+    <Link Source="Microsoft.Owin.Security.OAuth 3.0.1" Target="Microsoft.Owin 3.0.1" Category="程序包依赖项" Bounds="587.425720214844,137.509994506836,394.814086914063,87.9765167236328" />
+    <Link Source="Microsoft.Owin.Security.OAuth 3.0.1" Target="Microsoft.Owin.Security 3.0.1" Category="程序包依赖项" Bounds="789.618041992188,137.509994506836,184.527587890625,28.6205749511719" />
+    <Link Source="Microsoft.Owin.Security.OAuth 3.0.1" Target="Newtonsoft.Json 6.0.4" Category="程序包依赖项" Bounds="1067.61486816406,137.509994506836,82.05029296875,80.3212585449219" />
+    <Link Source="Microsoft.Owin.Security.OAuth 3.0.1" Target="Owin 1.0" Category="程序包依赖项" Bounds="741.511962890625,137.509994506836,327.923095703125,147.975784301758" />
+    <Link Source="server-core" Target="Microsoft.AspNet.Identity.EntityFramework 2.2.1" Category="安装的程序包" Bounds="83.0597229003906,25.5906753540039,88.3702545166016,27.5659255981445" />
+    <Link Source="server-core" Target="Microsoft.AspNet.Identity.Owin 2.2.1" Category="安装的程序包" Bounds="84.870002746582,16.0156269073486,598.34056854248,43.672342300415" />
+    <Link Source="server-core" Target="Microsoft.AspNet.WebApi.Owin 5.2.3" Category="安装的程序包" Bounds="84.870002746582,14.6511039733887,874.402153015137,40.4209480285645" />
+    <Link Source="server-core" Target="Microsoft.Owin.Cors 3.0.1" Category="安装的程序包" Bounds="10.4350004196167,25.8366661071777,102.376919746399,138.570621490479" />
+    <Link Source="server-core" Target="Microsoft.Owin.Diagnostics 3.0.1" Category="安装的程序包" Bounds="42.435001373291,25.8366661071777,219.68542098999,142.250202178955" />
+    <Link Source="server-selfhost" Target="Microsoft.Owin.Host.HttpListener 3.0.1" Category="安装的程序包" Bounds="1253.43505859375,137.509994506836,0,21" />
+    <Link Source="server-selfhost" Target="Microsoft.Owin.Hosting 3.0.1" Category="安装的程序包" Bounds="1025.54931640625,134.072113037109,175.590698242188,31.8324584960938" />
   </Links>
   <Categories>
-    <Category Id="项目" />
+    <Category Id="Category2" Label="类别 2" Background="#FF339933" IsTag="True" />
+    <Category Id="Category4" Label="类别 4" Background="#FF1BA1E2" IsTag="True" />
+    <Category Id="Category5" Label="类别 5" Background="#FF9B4F96" IsTag="True" />
+    <Category Id="Category9" Label="类别 9" Background="#FF00539C" IsTag="True" />
     <Category Id="包" />
+    <Category Id="安装的程序包" />
+    <Category Id="程序包依赖项" />
+    <Category Id="项目" />
   </Categories>
+  <Properties>
+    <Property Id="Background" Label="背景" Description="背景色" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
   <Styles>
+    <Style TargetType="Node" GroupLabel="类别 7" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category7')" />
+      <Setter Property="Background" Value="#FF347A30" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 5" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FF9B4F96" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 9" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category9')" />
+      <Setter Property="Background" Value="#FF00539C" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 6" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FFA1260D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 3" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FF3EBCED" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 4" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category4')" />
+      <Setter Property="Background" Value="#FF1BA1E2" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类别 2" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
     <Style TargetType="Node" GroupLabel="项目" ValueLabel="True">
       <Condition Expression="HasCategory('项目')" />
       <Setter Property="Background" Value="Blue" />
