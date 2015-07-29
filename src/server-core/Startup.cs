@@ -41,6 +41,8 @@ namespace IdentityNS.Server.Core
 
             var config = new HttpConfiguration();
             WebApiConfig.Register(config);
+
+            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             app.UseWebApi(config);
         }
 
