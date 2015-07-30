@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server-selfhost", "server-selfhost\server-selfhost.csproj", "{00ABE128-262C-41C8-BE71-22C1821A197A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server-core", "server-core\server-core.csproj", "{857EBD06-11F9-4BEA-9FF4-03B78A53EEC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server-owinhost", "server-owinhost\server-owinhost.csproj", "{5B9A4D1F-34A1-47C8-9478-C314B9392EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server-frontend", "server-frontend\server-frontend.csproj", "{E57E414A-5353-4B47-AED8-C117C4CCA082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5B9A4D1F-34A1-47C8-9478-C314B9392EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B9A4D1F-34A1-47C8-9478-C314B9392EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B9A4D1F-34A1-47C8-9478-C314B9392EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57E414A-5353-4B47-AED8-C117C4CCA082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57E414A-5353-4B47-AED8-C117C4CCA082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57E414A-5353-4B47-AED8-C117C4CCA082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57E414A-5353-4B47-AED8-C117C4CCA082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
