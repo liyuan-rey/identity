@@ -111,11 +111,17 @@
   <ItemGroup>
     <Compile Include="Common\BaseRepository.cs" />
     <Compile Include="Common\ContractUtil.cs" />
+    <Compile Include="Common\Helper.cs" />
     <Compile Include="Common\IRepository.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\RefreshTokensController.cs" />
+    <Compile Include="DataAccess\ApplicationTypes.cs" />
     <Compile Include="DataAccess\AuthContext.cs" />
     <Compile Include="DataAccess\AuthRepository.cs" />
+    <Compile Include="DataAccess\Client.cs" />
+    <Compile Include="DataAccess\RefreshToken.cs" />
     <Compile Include="Models\UserModel.cs" />
+    <Compile Include="OAuth\SimpleRefreshTokenProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OAuth\SimpleAuthorizationServerProvider.cs" />
     <Compile Include="Startup.cs" />
