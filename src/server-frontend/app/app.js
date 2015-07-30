@@ -27,6 +27,11 @@ app.config(function ($routeProvider) {
         templateUrl: "/app/views/refresh.html"
     });
 
+    $routeProvider.when("/tokens", {
+        controller: "tokensManagerController",
+        templateUrl: "/app/views/tokens.html"
+    });
+
     $routeProvider.otherwise({ redirectTo: "/home" });
 });
 
@@ -34,7 +39,7 @@ app.config(function ($routeProvider) {
 var serviceBase = 'http://localhost:12345/';
 app.constant('isfeSettings', {
     apiServiceBaseUri: serviceBase,
-    clientId: 'employeemanage'
+    clientId: 'identity-server-frontend'
 });
 
 app.config(function ($httpProvider) {

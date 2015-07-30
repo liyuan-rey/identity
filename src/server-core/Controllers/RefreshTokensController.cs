@@ -19,14 +19,14 @@ namespace IdentityNS.Server.Core.Controllers
             _repo = new AuthRepository();
         }
 
-        [Authorize(Users = "Admin")]
+        [Authorize(Users = "root")]
         [Route("")]
         public IHttpActionResult Get()
         {
             return Ok(_repo.GetAllRefreshTokens());
         }
 
-        //[Authorize(Users = "Admin")]
+        [Authorize(Users = "root")]
         [AllowAnonymous]
         [Route("")]
         public async Task<IHttpActionResult> Delete(string tokenId)
